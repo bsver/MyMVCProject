@@ -26,5 +26,12 @@ namespace MyMVCApplication.Controllers
 
             return View();
         }
+
+        public ActionResult TestLink()
+        {
+            ViewBag.Message = "Some test link page.";
+
+            return View();
+        }
     }
 }
